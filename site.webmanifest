@@ -1,0 +1,20 @@
+{
+  "short_name": "parkerlougheed",
+  "name": "Parker Lougheed",
+  "lang": "en-US",
+  "description": "Parker Lougheed's Website",
+  "icons":[
+    {
+      "src": "images/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "type":"image/png",
+      "sizes":"512x512"
+    }],
+  "start_url": "",
+  "background_color": "#E0E0E0",
+  "theme_color": "#9575CD"
+}
