@@ -154,7 +154,7 @@ input[type='checkbox'] {
 }
 
 .toggle:checked + .ctoggle + .ccontent {
-    max-height: 350px;
+    max-height: 900px;
 }
 
 .toggle:checked + .ctoggle::before {
