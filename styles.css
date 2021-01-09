@@ -178,11 +178,11 @@ input[type='checkbox'] {
     cursor: pointer;
     padding: 15px;
     font-size: 18px;
-    color: #E0E0E0;
+    color: #f4f4f4;
     transition: transform .5s ease-out;
 }
 
 #toTop:hover {
     background-color: #9575CD;
-    color: #BDBDBD;
+    color: #E0E0E0;
 }
