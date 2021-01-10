@@ -4,17 +4,25 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-::selection {
-    background: #D1C4E9;
-}
-
 body {
     min-width: 480px;
     overflow-x: hidden;
+
+    --background-color: #f4f4f4;
+    --select-color: #d1c4e9;
+    --text-color: #616161;
+    --header-color: #9575cd;
+    --link-color: #b39ddb;
+    --hovered-link-color: #9575cd;
+    --selected-link-color: #7e57c2;
+}
+
+::selection {
+    background: var(--select-color), #d1c4e9;
 }
 
 h1 {
-    color: #9575CD;
+    color: var(--header-color), #9575cd;
     margin: 0;
     padding: 1vw;
     font-weight: bold;
@@ -23,7 +31,7 @@ h1 {
 }
 
 h2 {
-    color: #9575CD;
+    color: var(--header-color), #9575cd;
     margin: 0;
     padding: 1vw 1vw .2vw;
     font-size: calc(16px + 1vw);
@@ -32,7 +40,7 @@ h2 {
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: var(--background-color), #f4f4f4;
 }
 
 ul {
@@ -56,20 +64,16 @@ li a {
 }
 
 .active {
-    color: #7E57C2;
+    color: var(--selected-link-color), #7e57c2;
 }
 
-a:hover {
-    color: #9575CD;
-}
-
-li a:hover:not(.active) {
-    color: #9575CD;
+a:hover, li a:hover:not(.active) {
+    color: var(--hovered-link-color), #9575cd;
 }
 
 p {
     padding-right: 3vw;
-    color: #616161;
+    color: var(--text-color), #616161;
     font-size: calc(15px + .2vw);
 }
 
@@ -102,7 +106,7 @@ p.main a.links{
 
 a {
     text-decoration: none;
-    color: #B39DDB;
+    color: var(--link-color), #b39ddb;
 }
 
 input[type='checkbox'] {
@@ -112,7 +116,7 @@ input[type='checkbox'] {
 .ctoggle {
     display: block;
 
-    color: #B39DDB;
+    color: var(--link-color), #b39ddb;
     font-size: calc(16px + .4vw);
     text-transform: uppercase;
     text-align: left;
@@ -124,7 +128,7 @@ input[type='checkbox'] {
 }
 
 .ctoggle:hover {
-    color: #7E57C2;
+    color: var(--selected-link-color), #7e57c2;
 }
 
 .ctoggle::before {
@@ -178,7 +182,7 @@ input[type='checkbox'] {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #B39DDB;
+    background-color: var(--link-color), #b39ddb;
     cursor: pointer;
     padding: 15px;
     font-size: 18px;
@@ -187,6 +191,6 @@ input[type='checkbox'] {
 }
 
 #toTop:hover {
-    background-color: #9575CD;
+    background-color: var(--hovered-link-color), #9575cd;
     color: #E0E0E0;
 }
