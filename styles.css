@@ -8,6 +8,11 @@
     background: #D1C4E9;
 }
 
+body {
+    min-width: 480px;
+    overflow-x: hidden;
+}
+
 h1 {
     color: #9575CD;
     margin: 0;
@@ -20,8 +25,7 @@ h1 {
 h2 {
     color: #9575CD;
     margin: 0;
-    padding: 1vw;
-    padding-bottom: .2vw;
+    padding: 1vw 1vw .2vw;
     font-size: calc(16px + 1vw);
     font-weight: bold;
     text-transform: uppercase;
