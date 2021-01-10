@@ -28,6 +28,7 @@ h1 {
     font-weight: bold;
     font-size: calc(32px + 1vw);
     text-transform: uppercase;
+    user-select: none;
 }
 
 h2 {
