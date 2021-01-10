@@ -3,6 +3,7 @@
   "name": "Parker Lougheed",
   "lang": "en-US",
   "description": "Parker Lougheed's Website",
+  "display": "minimal-ui",
   "icons":[
     {
       "src": "images/android-chrome-192x192.png",
@@ -14,7 +15,7 @@
       "type":"image/png",
       "sizes":"512x512"
     }],
-  "start_url": "",
+  "start_url": "https://parkerlougheed.com",
   "background_color": "#f4f4f4",
   "theme_color": "#9575cd"
 }
