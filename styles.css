@@ -20,6 +20,10 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-width: 480px;
     overflow-x: hidden;
